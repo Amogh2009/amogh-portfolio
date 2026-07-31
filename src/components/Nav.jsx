@@ -1,20 +1,26 @@
+import { NavLink } from 'react-router-dom'
+
 export default function Nav() {
   const links = [
-    { label: 'Work', href: '#work' },
-    { label: 'About', href: '#about' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Work', to: '/work' },
+    { label: 'About', to: '/about' },
+    { label: 'Contact', to: '/contact' },
   ]
 
   return (
     <nav className="nav">
-      <a href="#top" className="nav__logo">
+      <NavLink to="/" className="nav__logo">
         amogh<span className="accent">.</span>
-      </a>
+      </NavLink>
       <div className="nav__links">
         {links.map((link) => (
-          <a key={link.href} href={link.href}>
+          <NavLink
+            key={link.to}
+            to={link.to}
+            className={({ isActive }) => (isActive ? 'nav__link--active' : undefined)}
+          >
             {link.label}
-          </a>
+          </NavLink>
         ))}
       </div>
     </nav>

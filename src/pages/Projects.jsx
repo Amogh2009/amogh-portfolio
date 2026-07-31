@@ -1,9 +1,9 @@
 import { projects } from '../data/projects'
-import ProjectCard from './ProjectCard'
+import ProjectCard from '../components/ProjectCard'
 
 export default function Projects() {
   return (
-    <section id="work" className="section">
+    <section className="section">
       <h2 className="section__heading">
         <span className="section__number">02</span> Projects
       </h2>

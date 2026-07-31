@@ -16,7 +16,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="section">
+    <section className="section">
       <h2 className="section__heading">
         <span className="section__number">03</span> Contact
       </h2>

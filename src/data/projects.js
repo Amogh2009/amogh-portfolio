@@ -5,31 +5,44 @@ export const projects = [
     title: "WeatherAug",
     subtitle: "Weather augmentation for robust computer vision",
     description:
-      "Independent research into synthetic weather augmentation for CNNs, exploring why models trained on synthetic rain and snow often fail to generalize to real-world conditions. Current work centers on a hypothesis that synthetic generators reproduce occlusion and lighting shifts well, but miss the edge distortion and noise texture that real precipitation introduces.",
+      "Independent research into synthetic weather augmentation for computer vision models, exploring why models trained on synthetic rain and snow often fail to generalize to real-world conditions. Current work centers on a hypothesis that synthetic generators reproduce occlusion and lighting shifts well, but miss the edge distortion and noise texture that real precipitation introduces, which has pushed the project toward physics-based rendering to generate more physically accurate synthetic weather.",
     milestones: [
-      "Published in Vanderbilt's Young Scholars Journal",
       "Extended work submitted for review to AAAI",
     ],
-    tags: ["Computer Vision", "CNNs", "Research"],
+    tags: ["Computer Vision", "Physics", "Research"],
     links: [],
   },
   {
     id: "frc",
     number: "02",
     title: "FRC Robotics",
-    subtitle: "Software lead, competition robotics",
+    subtitle: "FRC software subsystem lead",
     description:
-      "Software lead for the team's FRC program, which qualified for Worlds. Restructured the software subteam around the season's science subsystems, aligning code ownership with how the robot's mechanisms were actually built. Also brings VEX Robotics experience from a community team that qualified for Worlds.",
+      "Software subsystem lead for the team's FRC program. Restructured the software subteam around the season's science subsystems, aligning code ownership with how the robot's mechanisms were actually built.",
     milestones: [
-      "Qualified for FRC Worlds",
-      "Also competed at VEX Worlds with a community team",
+      "Won Regionals 3x",
+      "Qualified for Worlds 2x",
     ],
     tags: ["Robotics", "Software Architecture", "Team Leadership"],
     links: [],
   },
   {
-    id: "ai-mentorship",
+    id: "vex",
     number: "03",
+    title: "VEX Robotics",
+    subtitle: "Software lead and driver, community team",
+    description:
+      "Software lead and driver for a community VEX Robotics team.",
+    milestones: [
+      "5 top-5 finishes",
+      "Qualified for Worlds 2x",
+    ],
+    tags: ["Robotics", "Software", "Team Leadership"],
+    links: [],
+  },
+  {
+    id: "ai-mentorship",
+    number: "04",
     title: "AI Mentorship Club",
     subtitle: "Founder and lead",
     description:
